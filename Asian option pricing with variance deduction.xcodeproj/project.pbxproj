@@ -1,0 +1,267 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		038A71B01E8E440C00A3D46D /* Asian.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 038A71AA1E8E440C00A3D46D /* Asian.cpp */; };
+		038A71B11E8E440C00A3D46D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 038A71AC1E8E440C00A3D46D /* main.cpp */; };
+		038A71B21E8E440C00A3D46D /* payoff.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 038A71AE1E8E440C00A3D46D /* payoff.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		038A719E1E8E43EC00A3D46D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		038A71A01E8E43EC00A3D46D /* Asian option pricing with variance deduction */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Asian option pricing with variance deduction"; sourceTree = BUILT_PRODUCTS_DIR; };
+		038A71AA1E8E440C00A3D46D /* Asian.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Asian.cpp; path = "../../Asian Option Pricing/Asian Option Pricing/Asian.cpp"; sourceTree = "<group>"; };
+		038A71AB1E8E440C00A3D46D /* Asian.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Asian.hpp; path = "../../Asian Option Pricing/Asian Option Pricing/Asian.hpp"; sourceTree = "<group>"; };
+		038A71AC1E8E440C00A3D46D /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = "../../Asian Option Pricing/Asian Option Pricing/main.cpp"; sourceTree = "<group>"; };
+		038A71AD1E8E440C00A3D46D /* path_generation.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = path_generation.hpp; path = "../../Asian Option Pricing/Asian Option Pricing/path_generation.hpp"; sourceTree = "<group>"; };
+		038A71AE1E8E440C00A3D46D /* payoff.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = payoff.cpp; path = "../../Asian Option Pricing/Asian Option Pricing/payoff.cpp"; sourceTree = "<group>"; };
+		038A71AF1E8E440C00A3D46D /* payoff.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = payoff.hpp; path = "../../Asian Option Pricing/Asian Option Pricing/payoff.hpp"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		038A719D1E8E43EC00A3D46D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		038A71971E8E43EC00A3D46D = {
+			isa = PBXGroup;
+			children = (
+				038A71A21E8E43EC00A3D46D /* Asian option pricing with variance deduction */,
+				038A71A11E8E43EC00A3D46D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		038A71A11E8E43EC00A3D46D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				038A71A01E8E43EC00A3D46D /* Asian option pricing with variance deduction */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		038A71A21E8E43EC00A3D46D /* Asian option pricing with variance deduction */ = {
+			isa = PBXGroup;
+			children = (
+				038A71AA1E8E440C00A3D46D /* Asian.cpp */,
+				038A71AB1E8E440C00A3D46D /* Asian.hpp */,
+				038A71AC1E8E440C00A3D46D /* main.cpp */,
+				038A71AD1E8E440C00A3D46D /* path_generation.hpp */,
+				038A71AE1E8E440C00A3D46D /* payoff.cpp */,
+				038A71AF1E8E440C00A3D46D /* payoff.hpp */,
+			);
+			path = "Asian option pricing with variance deduction";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		038A719F1E8E43EC00A3D46D /* Asian option pricing with variance deduction */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 038A71A71E8E43EC00A3D46D /* Build configuration list for PBXNativeTarget "Asian option pricing with variance deduction" */;
+			buildPhases = (
+				038A719C1E8E43EC00A3D46D /* Sources */,
+				038A719D1E8E43EC00A3D46D /* Frameworks */,
+				038A719E1E8E43EC00A3D46D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Asian option pricing with variance deduction";
+			productName = "Asian option pricing with variance deduction";
+			productReference = 038A71A01E8E43EC00A3D46D /* Asian option pricing with variance deduction */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		038A71981E8E43EC00A3D46D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Wuqian Zhong";
+				TargetAttributes = {
+					038A719F1E8E43EC00A3D46D = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 038A719B1E8E43EC00A3D46D /* Build configuration list for PBXProject "Asian option pricing with variance deduction" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 038A71971E8E43EC00A3D46D;
+			productRefGroup = 038A71A11E8E43EC00A3D46D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				038A719F1E8E43EC00A3D46D /* Asian option pricing with variance deduction */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		038A719C1E8E43EC00A3D46D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				038A71B11E8E440C00A3D46D /* main.cpp in Sources */,
+				038A71B21E8E440C00A3D46D /* payoff.cpp in Sources */,
+				038A71B01E8E440C00A3D46D /* Asian.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		038A71A51E8E43EC00A3D46D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		038A71A61E8E43EC00A3D46D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		038A71A81E8E43EC00A3D46D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		038A71A91E8E43EC00A3D46D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		038A719B1E8E43EC00A3D46D /* Build configuration list for PBXProject "Asian option pricing with variance deduction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				038A71A51E8E43EC00A3D46D /* Debug */,
+				038A71A61E8E43EC00A3D46D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		038A71A71E8E43EC00A3D46D /* Build configuration list for PBXNativeTarget "Asian option pricing with variance deduction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				038A71A81E8E43EC00A3D46D /* Debug */,
+				038A71A91E8E43EC00A3D46D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 038A71981E8E43EC00A3D46D /* Project object */;
+}
